@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-logo {
+  max-width: 100%;
+  pointer-events: none;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.holder {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  max-width: 95vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.section {
+  background-color: #61dafb;
+  opacity: 20%;
+  display: block;
+  padding: 0rem 2rem;
+  flex: 1 1 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .holder{
+    flex-direction: column;
+  }
+
+  #Title {
+    order: 0;
+  }
+  
+  #Ruby {
+    order: 1;
+  }
+  
+  #Emerald {
+    order: 2;
+  }
+}
