@@ -1,39 +1,23 @@
-import logo from './logo.png';
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
       </header>
-        <div className="holder">
-          <div className="section" id="Ruby">
-            <ul>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-            </ul>
-          </div>
-          <div className="section" id="Title">
-            <img src={logo} className="App-logo" alt="logo" />
-            <p>
-              Old School RL Leaderboard
-            </p>
-          </div>
-          <div className="section" id="Emerald">
-            <ul>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-            </ul>
-          </div>
-        </div>
     </div>
   );
 }
