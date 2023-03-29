@@ -1,3 +1,5 @@
+If you see this, the current build is not yet working.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
